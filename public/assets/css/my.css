@@ -1,0 +1,25 @@
+.button-lg {
+ background-color: dodgerblue;
+ padding: 10px;
+ border-radius: 10px;
+ color: white;
+}
+.garis {
+ border-bottom: 2px solid black;
+}
+.button-lg-view {
+ background-color: #f195b2;
+ padding: 10px;
+ border-radius: 10px;
+ color: white;
+ margin: 0 5px;
+}
+.button-lg-view:hover {
+ background-color: white;
+}
+button {
+ border: none;
+}
+button:hover {
+ color: #f195b2;
+}
