@@ -19,7 +19,6 @@
           </div>
           <div class="link-a d-flex justify-content-center">
             <a href="/create" class="bx bx-link m-3 button-lg" id="tambah-data">Add</a>
-            <a href="/logout" class="bx bx-link m-3 button-lg">Logout</a>
           </div>
 
         </div>

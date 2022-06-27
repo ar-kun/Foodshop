@@ -16,14 +16,47 @@ class Pages extends BaseController
     }
     public function index()
     {
-        $Porto = new PortoModel();
+       
         // $product = $this->ProductModel->findAll();
         $data = [
-            'title'=>'Home | Product',
+            'title'=>'Home',
             // 'porto' => $Porto->getEdu(),
             'product'=> $this->ProductModel->getProduct()
         ];
         return view('pages/home',$data);
+    }
+    public function product()
+    {
+        
+        // $product = $this->ProductModel->findAll();
+        $data = [
+            'title'=>'Product',
+            // 'porto' => $Porto->getEdu(),
+            'product'=> $this->ProductModel->getProduct()
+        ];
+        return view('pages/product',$data);
+    }
+    public function gallery()
+    {
+        
+        // $product = $this->ProductModel->findAll();
+        $data = [
+            'title'=>'Gallery',
+            // 'porto' => $Porto->getEdu(),
+            // 'product'=> $this->ProductModel->getProduct()
+        ];
+        return view('pages/gallery',$data);
+    }
+    public function contact()
+    {
+       
+        // $product = $this->ProductModel->findAll();
+        $data = [
+            'title'=>'Contact',
+            // 'porto' => $Porto->getEdu(),
+            // 'product'=> $this->ProductModel->getProduct()
+        ];
+        return view('pages/contact',$data);
     }
     public function detail($pro_slug)
     {
